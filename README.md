@@ -16,21 +16,26 @@ This dashboard helps the ADVENTUREWORKS understand their customers better. It he
 - Step 4 :Copy and paste to create a First card showing using a measure(DAX)function calculate The Total REVENUE and rename as Revenue.
 Measure:Revenue='Sales Data'[Retail Price]*'Sales Data'[OrderQuantity]
 Total Revenue=Sum('Sales Data'[Revenue])
+
 ![Image](https://github.com/user-attachments/assets/e84a4da8-961a-46ff-8c32-df1bc512ecb3)
 - Step 5 : Copy and paste to create a Second card showing using a measure(DAX)function calculate The Total PROFIT and rename as Profit.
 Measure:Total Profit = [Total Revenue]-[Total Cost]
 ![Image](https://github.com/user-attachments/assets/8752871b-9290-4734-b772-103090a7f004)
+
 - Step 6 :Copy and paste to create a Third card showing using a measure(DAX)function calculate The ORDER and rename as TotalOrder.
 Measure:Total Orders=DISTINCTCOUNT('Sales Data'[OrderNumber])
 ![Image](https://github.com/user-attachments/assets/6666ca9c-d5cb-49a8-83ee-b07e4a15d3da)
+
 - Step 7 :Copy and paste to create a Fourth card showing using a measure(DAX)function calculate The Total Return and rename as Return.
 Measure:return=Count('returns Data'[ReturnQuantity])
 ![Image](https://github.com/user-attachments/assets/6e81aa5c-c9c3-43f3-85dc-ca66e77ce892)
+
 - Step 8 :creating a LineChart to generate weekly Revenue in xaxis we a adding a start of week and in yaxis we are adding Total Revenue and rename as RevenueTrending and applying a zoom slider and apply the trend lines indicate the line is in up words or down words and applying forecast is the predicting analysis.
 ![Image](https://github.com/user-attachments/assets/61d40766-68fa-4f87-90c4-89107da6ac43)
 - Step 9 : For changing the tooltip background colour we need to go to properties and press the tooltip then we can customize according to dashboard colour.
 - Step 10 : A bar chart was also added to the report design area representing the number of Total orders in Accessories,Bikes,Clothing and changing the colour bar line to black and enable the data labels.
 ![Image](https://github.com/user-attachments/assets/799fdaef-5142-46b0-a4ef-9152500cb509)
+
 - Step 11 : create a matrix to display a top 10 products in the matrix i rows i am adding ProductName in values i am going to add TotalOrder,TotalRevenue,ReturnRate converting basic filters to  top 10 productname in the By value terms of TotalOrders and press the applyfilter and applying cellelements and apply the databars for TotalOrder change the colour and applying icons and applying for returnrate and change the background colour.
 ![Image](https://github.com/user-attachments/assets/34c6b66e-d053-49f1-8d09-b73504e829be)
 - Step 12 : creating a KPI for previous month Revenue in value we are adding TotalRevenue and in TrendAxis we are adding start of month and in Target we are adding Previous month Revenue and rename as monthly revenue.

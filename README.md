@@ -18,7 +18,7 @@ Total Revenue=Sum('Sales Data'[Revenue])
 
 
 ![Image](https://github.com/user-attachments/assets/e84a4da8-961a-46ff-8c32-df1bc512ecb3)
-- Step 5 : Copy and paste to create a Second card showing using a measure(DAX)function calculate The Total PROFIT and rename as Profit.Measure:Total Profit = [Total Revenue]-[Total Cost]
+- Step 5 : Copy and paste to create a Second card showing using a measure(DAX)function calculate The Total PROFIT and rename as Profit.
 ![Image](https://github.com/user-attachments/assets/8752871b-9290-4734-b772-103090a7f004)
 
 - Step 6 :Copy and paste to create a Third card showing using a measure(DAX)function calculate The ORDER and rename as TotalOrder.Measure:Total Orders=DISTINCTCOUNT('Sales Data'[OrderNumber])

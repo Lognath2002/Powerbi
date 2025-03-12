@@ -14,8 +14,7 @@ This dashboard helps the ADVENTUREWORKS understand their customers better. It he
 ![Image](https://github.com/user-attachments/assets/f04faeae-56f7-4bac-8b68-97e7b9d2d7b5)
 - Step 3 :Add a background shape and match the formatting of the cards in the Exec Dashboard tab.
 - Step 4 :Copy and paste to create a First card showing using a measure(DAX)function calculate The Total REVENUE and rename as Revenue.
-Measure:Revenue='Sales Data'[Retail Price]*'Sales Data'[OrderQuantity]
-Total Revenue=Sum('Sales Data'[Revenue])
+
 
 ![Image](https://github.com/user-attachments/assets/e84a4da8-961a-46ff-8c32-df1bc512ecb3)
 - Step 5 : Copy and paste to create a Second card showing using a measure(DAX)function calculate The Total PROFIT and rename as Profit.

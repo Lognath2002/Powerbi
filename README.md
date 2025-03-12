@@ -13,20 +13,18 @@ This dashboard helps the ADVENTUREWORKS understand their customers better. It he
 - Step 2 : Open power query editor & in view tab  to understand Insert a (KPI) card in the Exec Dashboard report page to show REVENUE,PROFIT,TOTALORDER,RETURNS Using Card visualizations.
 ![Image](https://github.com/user-attachments/assets/f04faeae-56f7-4bac-8b68-97e7b9d2d7b5)
 - Step 3 :Add a background shape and match the formatting of the cards in the Exec Dashboard tab.
-- Step 4 :Copy and paste to create a First card showing using a measure(DAX)function calculate The Total REVENUE and rename as Revenue.
+- Step 4 :Copy and paste to create a First card showing using a measure(DAX)function calculate The Total REVENUE and rename as Revenue.Measure:Revenue='Sales Data'[Retail Price]*'Sales Data'[OrderQuantity]
+Total Revenue=Sum('Sales Data'[Revenue])
 
 
 ![Image](https://github.com/user-attachments/assets/e84a4da8-961a-46ff-8c32-df1bc512ecb3)
-- Step 5 : Copy and paste to create a Second card showing using a measure(DAX)function calculate The Total PROFIT and rename as Profit.
-Measure:Total Profit = [Total Revenue]-[Total Cost]
+- Step 5 : Copy and paste to create a Second card showing using a measure(DAX)function calculate The Total PROFIT and rename as Profit.Measure:Total Profit = [Total Revenue]-[Total Cost]
 ![Image](https://github.com/user-attachments/assets/8752871b-9290-4734-b772-103090a7f004)
 
-- Step 6 :Copy and paste to create a Third card showing using a measure(DAX)function calculate The ORDER and rename as TotalOrder.
-Measure:Total Orders=DISTINCTCOUNT('Sales Data'[OrderNumber])
+- Step 6 :Copy and paste to create a Third card showing using a measure(DAX)function calculate The ORDER and rename as TotalOrder.Measure:Total Orders=DISTINCTCOUNT('Sales Data'[OrderNumber])
 ![Image](https://github.com/user-attachments/assets/6666ca9c-d5cb-49a8-83ee-b07e4a15d3da)
 
-- Step 7 :Copy and paste to create a Fourth card showing using a measure(DAX)function calculate The Total Return and rename as Return.
-Measure:return=Count('returns Data'[ReturnQuantity])
+- Step 7 :Copy and paste to create a Fourth card showing using a measure(DAX)function calculate The Total Return and rename as Return.Measure:return=Count('returns Data'[ReturnQuantity])
 ![Image](https://github.com/user-attachments/assets/6e81aa5c-c9c3-43f3-85dc-ca66e77ce892)
 
 - Step 8 :creating a LineChart to generate weekly Revenue in xaxis we a adding a start of week and in yaxis we are adding Total Revenue and rename as RevenueTrending and applying a zoom slider and apply the trend lines indicate the line is in up words or down words and applying forecast is the predicting analysis.
